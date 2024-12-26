@@ -16,26 +16,31 @@ class CategorySeeder extends Seeder
         Category::create([
             'name' => 'Laravel',
             'slug' => 'laravel',
+            'color' => 'red',
         ]);
 
         Category::create([
             'name' => 'Vue.js',
             'slug' => 'vue-js',
+            'color' => 'green',
         ]);
 
         Category::create([
             'name' => 'React.js',
             'slug' => 'react-js',
+            'color' => 'blue',
         ]);
 
         Category::create([
             'name' => 'Tailwind CSS',
             'slug' => 'tailwind-css',
+            'color' => 'yellow',
         ]);
 
         Category::create([
             'name' => 'Alpine.js',
             'slug' => 'alpine-js',
+            'color' => 'indigo',
         ]);
     }
 }
